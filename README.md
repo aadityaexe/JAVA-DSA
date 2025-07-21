@@ -1,7 +1,7 @@
-# 📘 JAVA-DSA
+# 📘 C++-DSA
 
-Welcome to the **JAVA-DSA** repository!  
-This project is a comprehensive and structured collection of Java-based **Data Structures and Algorithms** problems, solutions, and notes — created as part of my personal learning journey and preparation for **coding interviews**, **competitive programming**, and **technical assessments**.
+Welcome to the **C++-DSA** repository!
+This project is a comprehensive and structured collection of C++-based **Data Structures and Algorithms** problems, solutions, and notes — created as part of my personal learning journey and preparation for **coding interviews**, **competitive programming**, and **technical assessments**.
 
 ---
 
@@ -9,10 +9,10 @@ This project is a comprehensive and structured collection of Java-based **Data S
 
 As a passionate developer, I created this repository to:
 
-- Strengthen my **core DSA knowledge** using Java.
-- Prepare for **FAANG-level interviews** and coding challenges.
+- Strengthen my **core DSA knowledge** using C++.
+- Prepare for **FAANG-level interviews** and coding contests.
 - Build a consistent and organized reference of solved problems.
-- Help others who are learning DSA in Java.
+- Help others who are learning DSA in C++.
 
 ---
 
@@ -20,62 +20,60 @@ As a passionate developer, I created this repository to:
 
 This repository is organized into modules based on topic categories:
 
-| Module 📦           | Description                                          |
-| ------------------- | ---------------------------------------------------- |
-| `01_Basics/`        | Java syntax, I/O, variables, loops, methods          |
-| `02_OOP/`           | Classes, objects, inheritance, polymorphism          |
-| `03_Arrays/`        | One/Two dimensional arrays, problems, optimizations  |
-| `04_Recursion/`     | Recursive algorithms, backtracking basics            |
-| `05_LinkedList/`    | Singly, Doubly, Circular LL, cycle detection         |
-| `06_StacksQueues/`  | Stack, Queue, Deque, LRU cache, infix-postfix        |
-| `07_Trees/`         | Binary Trees, Traversals, DFS/BFS, TreeViews         |
-| `08_Graphs/`        | Graph representations, DFS, BFS, Topo sort, Dijkstra |
-| `09_DP/`            | Memoization, Tabulation, 1D/2D DP, Patterns          |
-| `10_Math/`          | GCD, LCM, Prime checks, Modular arithmetic           |
-| `11_SearchSort/`    | Binary Search, Merge Sort, Quick Sort, etc.          |
-| `12_SlidingWindow/` | Max sum subarrays, frequency-based problems          |
-| `13_TwoPointers/`   | Pair finding, sorted array problems, partitions      |
+| Module 📦           | Description                                     |
+| ------------------- | ----------------------------------------------- |
+| `01_Basics/`        | C++ syntax, I/O, variables, loops, functions    |
+| `02_OOP/`           | Classes, objects, inheritance, polymorphism     |
+| `03_Arrays/`        | 1D/2D arrays, STL vectors, optimizations        |
+| `04_Recursion/`     | Recursive logic, backtracking basics            |
+| `05_LinkedList/`    | Singly, Doubly, Circular LL, cycle detection    |
+| `06_StacksQueues/`  | Stack, Queue, Deque, STL stack/queue            |
+| `07_Trees/`         | Binary Trees, Traversals, DFS/BFS, TreeViews    |
+| `08_Graphs/`        | Graph adjList, DFS, BFS, Topo sort, Dijkstra    |
+| `09_DP/`            | Memoization, Tabulation, 1D/2D DP, Patterns     |
+| `10_Math/`          | GCD, Prime sieve, Modular arithmetic, Bits      |
+| `11_SearchSort/`    | Binary Search, Merge Sort, Quick Sort, STL sort |
+| `12_SlidingWindow/` | Max subarrays, frequency maps                   |
+| `13_TwoPointers/`   | Sorted array pairings, partition problems       |
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Language**: Java 17+
-- **Editor**: VS Code / IntelliJ IDEA
-- **Version Control**: Git & GitHub
-- **Build Tool (Optional)**: Maven / Gradle (for larger modules)
-- **Linting**: CheckStyle (optional for clean code)
+- **Language**: C++17 / C++20
+- **Editor**: VS Code / CLion
+- **Compiler**: g++ / clang++
+- **Build System**: CMake (optional)
+- **Linting**: clang-format (optional for clean code)
 
 ---
 
 ## 🗂️ Directory Structure
 
 ```
-
-JAVA-DSA/
-├── 01\_Basics/
-│   └── HelloWorld.java
-├── 02\_OOP/
-│   └── InheritanceDemo.java
-├── 03\_Arrays/
-│   └── MaxSubarraySum.java
+C++-DSA/
+├── 01_Basics/
+│   └── HelloWorld.cpp
+├── 02_OOP/
+│   └── InheritanceDemo.cpp
+├── 03_Arrays/
+│   └── MaxSubarraySum.cpp
 ├── ...
 └── README.md
-
 ```
 
 > Each topic folder contains:
 >
 > - 💡 Problem Statements
-> - 🧠 Approach & Explanation (comments)
-> - ✅ Java Implementation
-> - 📈 Optimizations where applicable
+> - 🧠 Approach & Explanation (via comments)
+> - ✅ C++ Code Implementation
+> - 📈 Optimizations wherever applicable
 
 ---
 
 ## 🏆 Progress Tracker
 
-- [x] Java Basics
+- [x] C++ Basics
 - [x] Object-Oriented Programming
 - [x] Arrays and Strings
 - [x] Recursion & Backtracking
@@ -92,16 +90,16 @@ JAVA-DSA/
 ## 💻 How to Use This Repo
 
 ```bash
-git clone https://github.com/aadityaexe/JAVA-DSA.git
-cd JAVA-DSA
+git clone https://github.com/aadityaexe/C-PLUS-DSA.git
+cd C-PLUS-DSA
 ```
 
-- Open any folder.
-- Compile and run Java files using:
+- Navigate into any folder.
+- Compile and run any `.cpp` file using:
 
 ```bash
-javac FileName.java
-java FileName
+g++ FileName.cpp -o FileName
+./FileName
 ```
 
 ---
@@ -119,7 +117,7 @@ A web developer learning DSA to crack system design and coding interviews.
 
 ## 🤝 Contributions
 
-While this is a personal learning project, feel free to fork or reference any code. If you'd like to contribute solutions or improvements, you're welcome to open a pull request or suggest enhancements via Issues.
+This is a personal learning space, but feel free to fork, clone, or learn from the code. If you'd like to contribute better solutions, enhancements, or fix bugs, feel free to open a pull request or submit an issue.
 
 ---
 
