@@ -1,24 +1,40 @@
-# 📘 C++-DSA
 
-Welcome to the **C++-DSA** repository!
-This project is a comprehensive and structured collection of C++-based **Data Structures and Algorithms** problems, solutions, and notes — created as part of my personal learning journey and preparation for **coding interviews**, **competitive programming**, and **technical assessments**.
+# 📘 C++ DSA
+
+Welcome to the **C++ DSA** repository!
+This project is a **collection of LeetCode problems and coding interview practice questions**, solved using **C++**. It is part of my preparation for **technical interviews**, **coding rounds**, and **competitive programming**.
 
 ---
 
 ## 🧠 Why This Repository?
 
-As a passionate developer, I created this repository to:
-
-- Strengthen my **core DSA knowledge** using C++.
-- Prepare for **FAANG-level interviews** and coding contests.
-- Build a consistent and organized reference of solved problems.
-- Help others who are learning DSA in C++.
+* Solve **LeetCode questions** and track my progress.
+* Strengthen **core DSA concepts** using C++.
+* Build an **organized reference of coding interview problems**.
+* Prepare for **FAANG-level interviews** and online assessments.
 
 ---
 
-## 📚 Roadmap / Topics Covered
+## 📂 Current Structure
 
-This repository is organized into modules based on topic categories:
+This repository currently contains **LeetCode problems**:
+
+```
+DSA/
+├── 1. Two Sum.cpp
+├── 26. Remove Duplicates from Sorted Array.cpp
+├── 27. Remove Element.cpp
+├── 35. Search Insert Position.cpp
+├── 88. Merge Sorted Array.cpp
+├── 217. Contains Duplicate.cpp
+└── README.md
+```
+
+---
+
+## 🗺️ Planned Roadmap / Topics
+
+I will continue expanding the repository by covering the following DSA topics:
 
 | Module 📦           | Description                                     |
 | ------------------- | ----------------------------------------------- |
@@ -40,66 +56,38 @@ This repository is organized into modules based on topic categories:
 
 ## 🧰 Tech Stack
 
-- **Language**: C++17 / C++20
-- **Editor**: VS Code / CLion
-- **Compiler**: g++ / clang++
-- **Build System**: CMake (optional)
-- **Linting**: clang-format (optional for clean code)
-
----
-
-## 🗂️ Directory Structure
-
-```
-C++-DSA/
-├── 01_Basics/
-│   └── HelloWorld.cpp
-├── 02_OOP/
-│   └── InheritanceDemo.cpp
-├── 03_Arrays/
-│   └── MaxSubarraySum.cpp
-├── ...
-└── README.md
-```
-
-> Each topic folder contains:
->
-> - 💡 Problem Statements
-> - 🧠 Approach & Explanation (via comments)
-> - ✅ C++ Code Implementation
-> - 📈 Optimizations wherever applicable
+* **Language:** C++17 / C++20
+* **Editor:** VS Code
+* **Compiler:** g++ / clang++
+* **Build System:** CMake (optional)
+* **Linting:** clang-format (optional)
 
 ---
 
 ## 🏆 Progress Tracker
 
-- [x] C++ Basics
-- [x] Object-Oriented Programming
-- [x] Arrays and Strings
-- [x] Recursion & Backtracking
-- [ ] Linked Lists
-- [ ] Stacks & Queues
-- [ ] Trees
-- [ ] Graphs
-- [ ] Dynamic Programming
-- [ ] Math & Bit Manipulation
-- [ ] Sliding Window & Two Pointers
+* [x] LeetCode Array Problems
+* [ ] Linked Lists
+* [ ] Stacks & Queues
+* [ ] Trees
+* [ ] Graphs
+* [ ] Dynamic Programming
+* [ ] Advanced Problem Patterns
 
 ---
 
-## 💻 How to Use This Repo
+## 🚀 How to Run
 
 ```bash
-git clone https://github.com/aadityaexe/C-PLUS-DSA.git
-cd C-PLUS-DSA
+git clone https://github.com/aadityaexe/C-PLUS-PLUS-DSA.git
+cd C-PLUS-PLUS-DSA/DSA
 ```
 
-- Navigate into any folder.
-- Compile and run any `.cpp` file using:
+Compile and run any `.cpp` file:
 
 ```bash
-g++ FileName.cpp -o FileName
-./FileName
+g++ "1. Two Sum.cpp" -o TwoSum
+./TwoSum
 ```
 
 ---
@@ -107,17 +95,18 @@ g++ FileName.cpp -o FileName
 ## 👨‍💻 About Me
 
 Hi, I'm **Aditya Kumar** 👋
-A web developer learning DSA to crack system design and coding interviews.
+I’m solving **LeetCode problems** and practicing **coding interview questions** to prepare for top-tier software engineering roles.
 
-- 💼 GitHub: [@aadityaexe](https://github.com/aadityaexe)
-- 🌐 Portfolio: Coming soon...
-- 🧠 Interests: Algorithms, Full-stack Dev, Open Source, DevOps
+* 🌐 **Portfolio:** [aadityaexe.github.io/myPortfolio](https://aadityaexe.github.io/myPortfolio/)
+* 💼 **LinkedIn:** [linkedin.com/in/aditya-kumar-1187a0265](https://www.linkedin.com/in/aditya-kumar-1187a0265)
+* 🐦 **X (Twitter):** [@Aadityakumar\_01](https://x.com/Aadityakumar_01)
+* 🧩 **LeetCode:** [aadityakumar\_01](https://leetcode.com/u/aadityakumar_01/)
 
 ---
 
 ## 🤝 Contributions
 
-This is a personal learning space, but feel free to fork, clone, or learn from the code. If you'd like to contribute better solutions, enhancements, or fix bugs, feel free to open a pull request or submit an issue.
+This is a personal learning repository, but feel free to fork, learn, and contribute by opening issues or pull requests.
 
 ---
 
@@ -127,4 +116,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> “Consistency beats intensity. Every small step in DSA brings you closer to mastery.” 🧗‍♂️
+> **“Consistency beats intensity. Every small step in DSA brings you closer to mastery.”** 🧗‍♂️
