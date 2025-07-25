@@ -1,130 +1,103 @@
-# 📘 C++-DSA
+📘 C++ DSA
+Welcome to the C++-DSA repository!
+This project is a collection of LeetCode problems and coding interview practice questions, solved using C++. It is part of my preparation for technical interviews, coding rounds, and competitive programming.
 
-Welcome to the **C++-DSA** repository!
-This project is a comprehensive and structured collection of C++-based **Data Structures and Algorithms** problems, solutions, and notes — created as part of my personal learning journey and preparation for **coding interviews**, **competitive programming**, and **technical assessments**.
+🧠 Why This Repository?
+Solve LeetCode questions and track my progress.
 
----
+Strengthen core DSA concepts using C++.
 
-## 🧠 Why This Repository?
+Build an organized reference of coding interview problems.
 
-As a passionate developer, I created this repository to:
+Prepare for FAANG-level interviews and online assessments.
 
-- Strengthen my **core DSA knowledge** using C++.
-- Prepare for **FAANG-level interviews** and coding contests.
-- Build a consistent and organized reference of solved problems.
-- Help others who are learning DSA in C++.
+📂 Current Structure
+This repository currently contains LeetCode problems:
 
----
-
-## 📚 Roadmap / Topics Covered
-
-This repository is organized into modules based on topic categories:
-
-| Module 📦           | Description                                     |
-| ------------------- | ----------------------------------------------- |
-| `01_Basics/`        | C++ syntax, I/O, variables, loops, functions    |
-| `02_OOP/`           | Classes, objects, inheritance, polymorphism     |
-| `03_Arrays/`        | 1D/2D arrays, STL vectors, optimizations        |
-| `04_Recursion/`     | Recursive logic, backtracking basics            |
-| `05_LinkedList/`    | Singly, Doubly, Circular LL, cycle detection    |
-| `06_StacksQueues/`  | Stack, Queue, Deque, STL stack/queue            |
-| `07_Trees/`         | Binary Trees, Traversals, DFS/BFS, TreeViews    |
-| `08_Graphs/`        | Graph adjList, DFS, BFS, Topo sort, Dijkstra    |
-| `09_DP/`            | Memoization, Tabulation, 1D/2D DP, Patterns     |
-| `10_Math/`          | GCD, Prime sieve, Modular arithmetic, Bits      |
-| `11_SearchSort/`    | Binary Search, Merge Sort, Quick Sort, STL sort |
-| `12_SlidingWindow/` | Max subarrays, frequency maps                   |
-| `13_TwoPointers/`   | Sorted array pairings, partition problems       |
-
----
-
-## 🧰 Tech Stack
-
-- **Language**: C++17 / C++20
-- **Editor**: VS Code / CLion
-- **Compiler**: g++ / clang++
-- **Build System**: CMake (optional)
-- **Linting**: clang-format (optional for clean code)
-
----
-
-## 🗂️ Directory Structure
-
-```
-C++-DSA/
-├── 01_Basics/
-│   └── HelloWorld.cpp
-├── 02_OOP/
-│   └── InheritanceDemo.cpp
-├── 03_Arrays/
-│   └── MaxSubarraySum.cpp
-├── ...
+mathematica
+Copy
+Edit
+DSA/
+├── 1. Two Sum.cpp
+├── 26. Remove Duplicates from Sorted Array.cpp
+├── 27. Remove Element.cpp
+├── 35. Search Insert Position.cpp
+├── 88. Merge Sorted Array.cpp
+├── 217. Contains Duplicate.cpp
 └── README.md
-```
+🗺️ Planned Roadmap / Topics
+I will continue expanding the repository by covering the following DSA topics:
 
-> Each topic folder contains:
->
-> - 💡 Problem Statements
-> - 🧠 Approach & Explanation (via comments)
-> - ✅ C++ Code Implementation
-> - 📈 Optimizations wherever applicable
+Module 📦	Description
+01_Basics/	C++ syntax, I/O, variables, loops, functions
+02_OOP/	Classes, objects, inheritance, polymorphism
+03_Arrays/	1D/2D arrays, STL vectors, optimizations
+04_Recursion/	Recursive logic, backtracking basics
+05_LinkedList/	Singly, Doubly, Circular LL, cycle detection
+06_StacksQueues/	Stack, Queue, Deque, STL stack/queue
+07_Trees/	Binary Trees, Traversals, DFS/BFS, TreeViews
+08_Graphs/	Graph adjList, DFS, BFS, Topo sort, Dijkstra
+09_DP/	Memoization, Tabulation, 1D/2D DP, Patterns
+10_Math/	GCD, Prime sieve, Modular arithmetic, Bits
+11_SearchSort/	Binary Search, Merge Sort, Quick Sort, STL sort
+12_SlidingWindow/	Max subarrays, frequency maps
+13_TwoPointers/	Sorted array pairings, partition problems
 
----
+🧰 Tech Stack
+Language: C++17 / C++20
 
-## 🏆 Progress Tracker
+Editor: VS Code
 
-- [x] C++ Basics
-- [x] Object-Oriented Programming
-- [x] Arrays and Strings
-- [x] Recursion & Backtracking
-- [ ] Linked Lists
-- [ ] Stacks & Queues
-- [ ] Trees
-- [ ] Graphs
-- [ ] Dynamic Programming
-- [ ] Math & Bit Manipulation
-- [ ] Sliding Window & Two Pointers
+Compiler: g++ / clang++
 
----
+Build System: CMake (optional)
 
-## 💻 How to Use This Repo
+Linting: clang-format (optional)
 
-```bash
-git clone https://github.com/aadityaexe/C-PLUS-DSA.git
-cd C-PLUS-DSA
-```
+🏆 Progress Tracker
+ LeetCode Array Problems
 
-- Navigate into any folder.
-- Compile and run any `.cpp` file using:
+ Linked Lists
 
-```bash
-g++ FileName.cpp -o FileName
-./FileName
-```
+ Stacks & Queues
 
----
+ Trees
 
-## 👨‍💻 About Me
+ Graphs
 
-Hi, I'm **Aditya Kumar** 👋
-A web developer learning DSA to crack system design and coding interviews.
+ Dynamic Programming
 
-- 💼 GitHub: [@aadityaexe](https://github.com/aadityaexe)
-- 🌐 Portfolio: Coming soon...
-- 🧠 Interests: Algorithms, Full-stack Dev, Open Source, DevOps
+ Advanced Problem Patterns
 
----
+🚀 How to Run
+bash
+Copy
+Edit
+git clone https://github.com/aadityaexe/C-PLUS-PLUS-DSA.git
+cd C-PLUS-PLUS-DSA/DSA
+Compile and run any .cpp file:
 
-## 🤝 Contributions
+bash
+Copy
+Edit
+g++ "1. Two Sum.cpp" -o TwoSum
+./TwoSum
+👨‍💻 About Me
+Hi, I'm Aditya Kumar 👋
+I’m solving LeetCode problems and practicing coding interview questions to prepare for top-tier software engineering roles.
 
-This is a personal learning space, but feel free to fork, clone, or learn from the code. If you'd like to contribute better solutions, enhancements, or fix bugs, feel free to open a pull request or submit an issue.
+🌐 Portfolio: aadityaexe.github.io/myPortfolio
 
----
+💼 LinkedIn: linkedin.com/in/aditya-kumar-1187a0265
 
-## 📄 License
+🐦 X (Twitter): @Aadityakumar_01
 
-This project is licensed under the [MIT License](LICENSE).
+🧩 LeetCode: aadityakumar_01
 
----
+🤝 Contributions
+This is a personal learning repository, but feel free to fork, learn, and contribute by opening issues or pull requests.
 
-> “Consistency beats intensity. Every small step in DSA brings you closer to mastery.” 🧗‍♂️
+📄 License
+This project is licensed under the MIT License.
+
+“Consistency beats intensity. Every small step in DSA brings you closer to mastery.” 🧗‍♂️
