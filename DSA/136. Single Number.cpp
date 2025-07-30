@@ -20,3 +20,19 @@ public:
     return -1;
   }
 };
+
+// Using Bitwise XOR
+
+class Solution
+{
+public:
+  int singleNumber(vector<int> &nums)
+  {
+    int result = 0;
+    for (int x : nums)
+    {
+      result ^= x;
+    }
+    return result;
+  }
+};
